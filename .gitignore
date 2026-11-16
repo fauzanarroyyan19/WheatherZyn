@@ -1,0 +1,16 @@
+# Secrets
+.env
+**/.env
+!.env.example
+
+# Dependencies and build output
+**/node_modules/
+**/dist/
+**/coverage/
+*.tsbuildinfo
+*.log
+
+# Local binaries and runtime data
+*.exe
+**/weather_history.json
+**/bot_state.json
